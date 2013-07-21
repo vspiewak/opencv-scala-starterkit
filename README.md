@@ -13,9 +13,9 @@ Run on OSX:
 
     sbt -Djava.library.path=lib/osx run
 
-Run on Windows (You must compile OpenCV into lib/win):
+Run on Windows (You must compile *first* OpenCV into lib/win):
 
-    sbt -Djava.library.path=lib/osx run
+    sbt -Djava.library.path=lib/win run
 
 Related links:
 * http://experienceopencv.blogspot.fr/2011/02/cascade-classifier-and-face-detection.html
